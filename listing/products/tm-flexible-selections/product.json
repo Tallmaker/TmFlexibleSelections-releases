@@ -51,14 +51,14 @@
   },
   "screenshots": [
     {
-      "file": "images/modes-pair.png",
-      "alt": "A check box list of categories next to a radio list, an on and off switch and a button bar of years.",
-      "caption": "A check box list for long fields, a switch and buttons for short ones"
+      "file": "images/looks-cards.png",
+      "alt": "Region and size filters as joined cards and as a Qlik-style filter pane list, North and Large selected.",
+      "caption": "Cards and the Qlik filter pane look"
     },
     {
-      "file": "images/themes-pair.png",
-      "alt": "The same region and category filters in a light and a dark theme, with North and Helmets selected.",
-      "caption": "The same filters in a light and a dark theme"
+      "file": "images/looks-segmented.png",
+      "alt": "Region and size filters as a blue segmented control and as selection dots, North and Large selected.",
+      "caption": "A segmented control and selection dots"
     }
   ],
   "shortlinks": ["tmflexibleselections"]
