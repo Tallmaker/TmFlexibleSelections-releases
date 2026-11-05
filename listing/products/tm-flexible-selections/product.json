@@ -1,0 +1,65 @@
+{
+  "name": "Tm Flexible Selections",
+  "pitch": "Filter your Qlik app with tiles, check boxes, button bars, switches, date ranges and more, styled your way.",
+  "question": "How do I give users clear, good-looking filters for many fields in one place?",
+  "questions": [
+    "How can users pick a year, a region and a date range at once?",
+    "How do I show which values are selected, possible and excluded at a glance?",
+    "How do I let users set a variable or switch which field a filter shows?"
+  ],
+  "useWhen": "Many fields to filter, each in its own fitting display.",
+  "audience": "App builders who want filters that match their app's look and read well on every screen.",
+  "purposes": ["filter"],
+  "features": [
+    "Ten ways to show a field",
+    "Nine ready-made looks",
+    "States you can read without colour",
+    "Date ranges and variables",
+    "Switch the field a filter shows",
+    "Keyboard and screen reader ready"
+  ],
+  "featureStrips": [
+    {
+      "heading": "Nine ready-made looks",
+      "text": "Start from Pills, Check box, Segmented control and six more looks, then change fonts, colours, borders and corners per part.",
+      "image": "images/presets-pair.png",
+      "alt": "Two filters side by side: rounded pills for region and size, and a check box list with excluded values struck through."
+    },
+    {
+      "heading": "The right display for each field",
+      "text": "A long list gets check boxes and Select all, a two-value field a switch, a short field a button bar or a radio list.",
+      "image": "images/modes-pair.png",
+      "alt": "A check box list of categories next to a radio list, an on and off switch and a button bar of years."
+    },
+    {
+      "heading": "Fits light and dark themes",
+      "text": "Selected, possible, alternative and excluded values keep their meaning in any theme, with marks and bars that stay readable.",
+      "image": "images/themes-pair.png",
+      "alt": "The same region and category filters in a light theme and a dark theme, with North and Helmets selected."
+    },
+    {
+      "heading": "Date ranges and variables",
+      "text": "Pick a from and to date or a quick range, and set a variable with buttons or a slider, from the same object.",
+      "image": "images/date-and-variable.png",
+      "alt": "Order date from and to fields with quick range buttons, Low Medium High buttons and a slider set to 60."
+    }
+  ],
+  "hero": {
+    "file": "images/selector-overview.png",
+    "alt": "Filters for region, year, category, customer and currency with flags, North, 2024, Helmets and NOK selected.",
+    "caption": "Five fields, five displays, one object"
+  },
+  "screenshots": [
+    {
+      "file": "images/modes-pair.png",
+      "alt": "A check box list of categories next to a radio list, an on and off switch and a button bar of years.",
+      "caption": "A check box list for long fields, a switch and buttons for short ones"
+    },
+    {
+      "file": "images/themes-pair.png",
+      "alt": "The same region and category filters in a light and a dark theme, with North and Helmets selected.",
+      "caption": "The same filters in a light and a dark theme"
+    }
+  ],
+  "shortlinks": ["tmflexibleselections"]
+}

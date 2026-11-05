@@ -1,0 +1,3 @@
+Tm Flexible Selections puts the filters for many fields into one object in your Qlik Cloud Analytics app. Each field gets the display that fits it: tiles, a dropdown, a list with check boxes, a button bar, a radio list, a switch, a date range, a field switcher, a variable control or your app's bookmarks.
+
+Clicks select at once, and the usual Qlik colours show what is selected, possible and excluded, with marks so nothing rests on colour alone. Start from one of nine looks and change fonts, colours, borders and spacing in the Styling panel. The filters work with the keyboard and screen readers, and they never change your data.
