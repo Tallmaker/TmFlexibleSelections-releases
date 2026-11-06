@@ -1,65 +1,71 @@
 {
   "name": "Tm Flexible Selections",
-  "pitch": "Filter your Qlik app with tiles, check boxes, button bars, switches, date ranges and more, styled your way.",
-  "question": "How do I give users clear, good-looking filters for many fields in one place?",
+  "pitch": "Bring clear filters for many fields together, with a display that fits each one.",
+  "question": "Which selections help me focus on the part of the business I need?",
   "questions": [
-    "How can users pick a year, a region and a date range at once?",
-    "How do I show which values are selected, possible and excluded at a glance?",
-    "How do I let users set a variable or switch which field a filter shows?"
+    "How can I narrow a sheet by region, year and date range?",
+    "Which values are selected, possible or excluded?",
+    "How can I change an app variable or return to a saved selection?"
   ],
-  "useWhen": "Many fields to filter, each in its own fitting display.",
-  "audience": "App builders who want filters that match their app's look and read well on every screen.",
+  "useWhen": "Bring several related filters together on a sheet",
+  "audience": "Qlik analysts and app builders who need several filters in one place.",
   "purposes": ["filter"],
   "features": [
-    "Ten ways to show a field",
-    "Nine ready-made looks",
-    "States you can read without colour",
-    "Date ranges and variables",
-    "Switch the field a filter shows",
-    "Keyboard and screen reader ready"
+    "Several field filters in one object",
+    "Tiles, lists, dropdowns and single-value controls",
+    "Date ranges and editable app variables",
+    "App bookmarks and fields that share a filter slot",
+    "Nine starting looks with colours, fonts and spacing",
+    "Selected and locked values marked beyond colour"
   ],
   "featureStrips": [
     {
-      "heading": "Nine ready-made looks",
-      "text": "Start from Pills, Check box, Segmented control and six more looks, then change fonts, colours, borders and corners per part.",
-      "image": "images/presets-pair.png",
-      "alt": "Two filters side by side: rounded pills for region and size, and a check box list with excluded values struck through."
+      "heading": "Give filters a look that fits the sheet",
+      "text": "Nine starting looks offer tiles, pills, check boxes and more, with colours, fonts, borders and spacing you can change.",
+      "image": "images/feature-looks.png",
+      "alt": "Demo App showing nine filter looks for the same region and category values."
     },
     {
-      "heading": "The right display for each field",
-      "text": "A long list gets check boxes and Select all, a two-value field a switch, a short field a button bar or a radio list.",
-      "image": "images/modes-pair.png",
-      "alt": "A check box list of categories next to a radio list, an on and off switch and a button bar of years."
+      "heading": "Keep single-value controls together",
+      "text": "A radio list, a two-value switch and editable app variable controls sit beside the chart they help users explore.",
+      "image": "images/feature-controls.png",
+      "alt": "Demo App with category radio buttons, a large-order switch, a variable select and a slider beside a bar chart."
     },
     {
-      "heading": "Fits light and dark themes",
-      "text": "Selected, possible, alternative and excluded values keep their meaning in any theme, with marks and bars that stay readable.",
-      "image": "images/themes-pair.png",
-      "alt": "The same region and category filters in a light theme and a dark theme, with North and Helmets selected."
+      "heading": "Carry the meaning of colour into filters",
+      "text": "Expression colours or master dimension colours let field values use a colour scheme that fits the rest of the app.",
+      "image": "images/feature-colours.png",
+      "alt": "Demo App with blue region tiles and region tiles in four different colours above a quantity chart."
     },
     {
-      "heading": "Date ranges and variables",
-      "text": "Pick a from and to date or a quick range, and set a variable with buttons or a slider, from the same object.",
-      "image": "images/date-and-variable.png",
-      "alt": "Order date from and to fields with quick range buttons, Low Medium High buttons and a slider set to 60."
+      "heading": "Focus a sheet on a date range",
+      "text": "From and To inputs and quick ranges let users narrow date selections without picking individual dates from a list.",
+      "image": "images/feature-dates.png",
+      "alt": "Demo App with From and To date inputs and quick ranges beside customer and category tables."
     }
   ],
   "hero": {
-    "file": "images/selector-overview.png",
-    "alt": "Filters for region, year, category, customer and currency with flags, North, 2024, Helmets and NOK selected.",
-    "caption": "Five fields, five displays, one object"
+    "file": "images/hero-sales.png",
+    "alt": "Demo App with year, region, customer and category filters beside a total quantity and category chart.",
+    "caption": "In the Demo App: filters and charts together on a sales sheet"
   },
   "screenshots": [
     {
-      "file": "images/looks-cards.png",
-      "alt": "Region and size filters as joined cards and as a Qlik-style filter pane list, North and Large selected.",
-      "caption": "Cards and the Qlik filter pane look"
+      "file": "images/gallery-layouts.png",
+      "alt": "Demo App comparing region and category filters arranged across the object and down its length.",
+      "caption": "In the Demo App: the same filters arranged across or down the object"
     },
     {
-      "file": "images/looks-segmented.png",
-      "alt": "Region and size filters as a blue segmented control and as selection dots, North and Large selected.",
-      "caption": "A segmented control and selection dots"
+      "file": "images/gallery-many-fields.png",
+      "alt": "Demo App with region and many synthetic attribute fields grouped into one filter object.",
+      "caption": "In the Demo App: many fields grouped in one filter object"
+    },
+    {
+      "file": "images/gallery-start.png",
+      "alt": "Demo App introduction with region and year filters below an explanation of the selector.",
+      "caption": "In the Demo App: a small region and year filter to start exploring"
     }
   ],
-  "shortlinks": ["tmflexibleselections"]
+  "shortlinks": ["tmflexibleselections"],
+  "trialSummary": "Works without a license, with a small License tab and license attention. A separate license extension removes the attention."
 }

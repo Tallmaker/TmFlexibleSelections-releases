@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "product": "tm-flexible-selections",
+  "languages": ["en"],
+  "default": "en",
+  "pages": [
+    { "slug": "overview" },
+    { "slug": "when-to-use" },
+    { "slug": "getting-started" },
+    { "slug": "settings" },
+    { "slug": "modes" },
+    { "slug": "tips" }
+  ]
+}
